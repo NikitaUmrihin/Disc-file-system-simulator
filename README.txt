@@ -22,9 +22,8 @@ compile: g++ main.cpp -o x6
 run: ./x6
 
 == Input ==
-The input is what was defined by the exercise.
-Mostly : int (fd), string (FileName, buf)
-Input is asked to know what function to call and to use them later 
+The input is : int (fd), string (FileName, buf)
+Input is used to know what function to call and how to use them later 
 
 == Output ==
 ListAll function shows disc content, open file descriptors
